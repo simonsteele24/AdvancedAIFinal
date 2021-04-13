@@ -5,13 +5,19 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "AdvancedAIFinal",
+			"Name": "RacingAI",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"PhysXVehicles",
 				"Engine"
 			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "DatasmithImporter",
+			"Enabled": true
 		}
 	]
 }

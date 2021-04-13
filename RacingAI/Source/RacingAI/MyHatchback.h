@@ -10,7 +10,7 @@
  * 
  */
 UCLASS()
-class ADVANCEDAIFINAL_API AMyHatchback : public AWheeledVehicle
+class RACINGAI_API AMyHatchback : public AWheeledVehicle
 {
 	GENERATED_BODY()
 	

@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "AdvancedAIFinalGameModeBase.generated.h"
+#include "RacingAIGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class ADVANCEDAIFINAL_API AAdvancedAIFinalGameModeBase : public AGameModeBase
+class RACINGAI_API ARacingAIGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	

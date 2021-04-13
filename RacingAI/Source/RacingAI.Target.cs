@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class AdvancedAIFinalTarget : TargetRules
+public class RacingAITarget : TargetRules
 {
-	public AdvancedAIFinalTarget( TargetInfo Target) : base(Target)
+	public RacingAITarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "AdvancedAIFinal" } );
+		ExtraModuleNames.AddRange( new string[] { "RacingAI" } );
 	}
 }

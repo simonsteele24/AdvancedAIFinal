@@ -7,7 +7,7 @@
 #include "MyBaseState.generated.h"
 
 UCLASS()
-class ADVANCEDAIFINAL_API AMyBaseState : public AActor
+class RACINGAI_API AMyBaseState : public AActor
 {
 	GENERATED_BODY()
 	

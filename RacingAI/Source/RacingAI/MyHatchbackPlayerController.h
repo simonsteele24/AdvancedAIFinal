@@ -11,7 +11,7 @@
  * 
  */
 UCLASS()
-class ADVANCEDAIFINAL_API AMyHatchbackPlayerController : public APlayerController
+class RACINGAI_API AMyHatchbackPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 	

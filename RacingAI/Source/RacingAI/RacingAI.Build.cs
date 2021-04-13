@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class AdvancedAIFinal : ModuleRules
+public class RacingAI : ModuleRules
 {
-	public AdvancedAIFinal(ReadOnlyTargetRules Target) : base(Target)
+	public RacingAI(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
