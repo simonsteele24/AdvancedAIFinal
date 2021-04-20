@@ -1,0 +1,151 @@
+newmtl BARR_LIME_Guardrail_A_001_Galvanized_MAT
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0.1 0.1 0.1
+Ns 65
+illum 2
+map_Kd texture\barr_lime_gaurdrail_001_galvanized_diff.dds
+bump texture\barr_lime_gaurdrail_001_galvanized_nrml.dds
+
+newmtl BARR_LIME_Jersey_Pit
+Ka 0.2 0.2 0.2
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 65
+illum 2
+map_Kd texture\barr_lime_jersey_pit_001_diff.dds
+bump texture\barr_lime_jersey_pit_001_nrml.dds
+
+newmtl BARR_Plastic_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 65
+illum 2
+map_Kd texture\barr_plastic_002_diff.dds
+bump texture\barr_plastic_002_nrml.dds
+
+newmtl BARR_PlasticLong_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\barr_plasticlong_003_diff.dds
+bump texture\barr_plasticlong_003_nrml.dds
+
+newmtl BARR_Jersey_white_clean_001
+Ka 0.4 0.4 0.4
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 65
+illum 2
+map_Kd texture\concrete_diff.dds
+bump texture\metal_black_002_nrml.dds
+
+newmtl BARR_LIME_Guardrail_A_001_White_MAT
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0.1 0.1 0.1
+Ns 65
+illum 2
+map_Kd texture\barr_lime_gaurdrail_001_white_diff.dds
+bump texture\barr_lime_gaurdrail_001_galvanized_nrml.dds
+
+newmtl BARR_Lime_CF_Alpha_Pole_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\barr_lime_chainlink_alphapole_001_diff.dds
+
+newmtl BARR_Lime_CF_Rope_001
+Ka 0.2 0.2 0.2
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\barr_steelcable_001_diff.dds
+
+newmtl BARR_Lime_CF_Poles_001
+Ka 0.2 0.2 0.2
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\barr_lime_chainlink_pole_001_diff.dds
+
+newmtl BARR_Lime_Fence_A_Poles_001
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\barr_lime_fence_post_001_diff.dds
+
+newmtl BARR_LIME_Gate_Chainlink_A_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\fence_lpchainlink.dds
+
+newmtl BARR_LIME_Gate_PaintedMetal_A_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl BARR_LIME_Gate_BareMetal_A_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\metal_galvanized_diff.dds
+
+newmtl BARR_SpectatorRailBarricade_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\metal_galvanized_002_diff.dds
+
+newmtl BARR_Lime_CF_Alpha_001
+Ka 0.2 0.2 0.2
+Kd 0.1 0.1 0.1
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\fence_lpchainlink.dds
+
+newmtl BARR_Lime_Fence_A_Alpha_001
+Ka 0.2 0.2 0.2
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\barr_lime_fence_grill_001_diff.dds
+
+newmtl FENCES
+Ka 0.2 0.2 0.2
+Kd 0.1 0.1 0.1
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\fence_05.dds
+
+newmtl BARR_LIME_Fence_B_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\barr_lime_fence_001_diff.dds
+bump texture\barr_lime_fence_post_001_nrml.dds
+

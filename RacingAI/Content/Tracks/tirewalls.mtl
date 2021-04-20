@@ -1,0 +1,18 @@
+newmtl Wall
+Ka 0.4 0.4 0.4
+Kd 0.3 0.3 0.3
+Ks 0.01 0.01 0.01
+Ns 8
+illum 2
+map_Kd texture\co_twall_belt_001_diff.dds
+bump texture\co_twall_belt_001_diffnrm.dds
+
+newmtl CO_Tire_002
+Ka 0.4 0.4 0.4
+Kd 0.3 0.3 0.3
+Ks 0.01 0.01 0.01
+Ns 8
+illum 2
+map_Kd texture\co_tire_002_diff.dds
+bump texture\co_tire_002_diffnrm.dds
+

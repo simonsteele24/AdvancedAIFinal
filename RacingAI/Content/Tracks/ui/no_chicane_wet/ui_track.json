@@ -1,0 +1,22 @@
+{
+  "name": "Limerock Raceway - No Chicane Wet",
+  "description": null,
+  "tags": [
+    "Limerock",
+    "circuit"
+  ],
+  "geotags": [
+    "41.9271° N",
+    "73.3820° W"
+  ],
+  "country": "USA",
+  "city": "Connecticut",
+  "length": "2414m",
+  "width": "5m-8m",
+  "pitboxes": "20",
+  "run": "Clockwise",
+  "author": "Terra21 & Jim Lloyd",
+  "version": "0.9",
+  "url": null,
+  "year": 2018
+}

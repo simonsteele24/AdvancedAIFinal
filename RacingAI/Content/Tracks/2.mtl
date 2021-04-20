@@ -1,0 +1,8 @@
+newmtl core_barr_cone_a
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0.05 0.05 0.05
+Ns 10
+illum 2
+map_Kd texture\core_barr_cone_a_d.dds
+

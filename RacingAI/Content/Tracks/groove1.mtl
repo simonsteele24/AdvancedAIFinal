@@ -1,0 +1,24 @@
+newmtl ROAD_MAIN_GROOVE
+Ka 0.2 0.2 0.2
+Kd 0.2 0.2 0.2
+Ks 3 3 3
+Ns 200
+illum 2
+map_Kd texture\groove-baseslimmer.dds
+
+newmtl ROAD_2_GROOVE
+Ka 0.2 0.2 0.2
+Kd 0.2 0.2 0.2
+Ks 3 3 3
+Ns 200
+illum 2
+map_Kd texture\rubberadd2slimmer.dds
+
+newmtl ROAD_4_GROOVE
+Ka 0.2 0.2 0.2
+Kd 0.2 0.2 0.2
+Ks 3 3 3
+Ns 250
+illum 2
+map_Kd texture\rubberadd1slimmer.dds
+

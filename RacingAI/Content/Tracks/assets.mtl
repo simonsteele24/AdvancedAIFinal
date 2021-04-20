@@ -1,0 +1,2141 @@
+newmtl BLDG_LIME_Media_Glass_001_FFFFFFFF
+Ka 0.1 0.1 0.1
+Kd 0.1 0.1 0.1
+Ks 0 0 0
+Ns 255
+illum 2
+map_Kd texture\bldg_lime_ems_001_window_diff.dds
+
+newmtl BLDG_LIME_EMS_001_Window
+Ka 0.1 0.1 0.1
+Kd 0.1 0.1 0.1
+Ks 0 0 0
+Ns 255
+illum 2
+map_Kd texture\bldg_lime_ems_001_window_diff.dds
+
+newmtl BLDG_LIME_Timing_001_glass
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+Ns 255
+illum 2
+map_Kd texture\bldg_lime_timing_glass_001_diff.dds
+
+newmtl Sign_co_shouldersign_crystalrock_001_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\co_shouldersign_crystalrock_001_diff.dds
+bump texture\co_shouldersign_crystalrock_001_nrml.dds
+
+newmtl metal_support
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_timer_001_metal_diff.dds
+bump texture\sign_lime_timer_001_nrml.dds
+
+newmtl SIGN_LIME_Timer_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_timer_001_diff.dds
+bump texture\sign_lime_timer_001_diff.dds
+
+newmtl SIGN_LIME_Sunoco_B_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_sunoco_b_001_diff.dds
+bump texture\sign_lime_sunoco_b_001_nrml.dds
+
+newmtl SIGN_LIME_Advert_A_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_advert_a_001_diff.dds
+bump texture\sign_lime_advert_i_001_nrml.dds
+
+newmtl BLDG_LIME_Timing_001_Roof
+Ka 0.4 0.4 0.4
+Kd 0.4 0.4 0.4
+Ks 0 0 0
+Ns 30
+illum 2
+map_Kd texture\bldg_lime_timing_001_roof_diff.dds
+bump texture\bldg_lime_timing_001_roof_diff.dds
+
+newmtl BLDG_LIME_Timing_001_Club_2
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_timing_001_clubbed_2_diff.dds
+bump texture\bldg_lime_tower_001_clubbed_nrml.dds
+
+newmtl BLDG_LIME_Timing_001_Club_1
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_timing_001_clubbed_1_diff.dds
+bump texture\bldg_lime_timing_001_clubbed_1_nrml.dds
+
+newmtl BLDG_Lime_Bridge_C_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_bridge_c_001_diff.dds
+bump texture\bldg_lime_bridge_c_001_nrml.dds
+
+newmtl BLDG_LIME_Bridge_B_001_Clubbed
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_bridge_b_001_clubbed_diff.dds
+bump texture\bldg_lime_bridge_b_001_clubbed_nrml.dds
+
+newmtl BLDG_LIME_Bridge_A_Stairs_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_bridge_a_stairs_001_diff.dds
+bump texture\bldg_lime_bridge_a_stairs_001_nrml.dds
+
+newmtl BLDG_LIME_Bridge_A_001_Signage
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_bridge_a_001_signage_diff.dds
+bump texture\bldg_lime_bridge_a_001_signage_nrml.dds
+
+newmtl BLDG_LIME_Bridge_A_001_Wall
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_bridge_a_001_wall_diff.dds
+bump texture\bldg_lime_bridge_a_001_wall_nrml.dds
+
+newmtl RCEDAY_Flag_White_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\continental.dds
+
+newmtl RCEDAY_Flag_Red_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\continental.dds
+
+newmtl Sign_co_shouldersign_vp_001_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\co_shouldersign_vp_001_diff.dds
+
+newmtl CO_LargeTurnMarker_Left_001_co_largeturnmarker_left_hoonigan_002_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\co_largeturnmarker_left_hoonigan_002_diff.dds
+
+newmtl CO_LargeTurnMarker_Left_001_co_largeturnmarker_left_002_diff2
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\co_largeturnmarker_left_002_diff2.dds
+
+newmtl CO_LargeTurnMarker_Left_002_co_largeturnmarker_left_hoonigan_001_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\co_largeturnmarker_left_hoonigan_001_diff.dds
+
+newmtl Sides
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgba040404ff.dds
+
+newmtl CO_LargeTurnMarker_Left_002
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\co_largeturnmarker_left_002_diff2.dds
+
+newmtl CO_LargeTurnMarker_Left_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\co_largeturnmarker_left_002_diff.dds
+
+newmtl CO_BrakeCylinder_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\co_brakecylinder_001_diff.dds
+
+newmtl Main_Barrel_co_barrel_red_tall_001_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\co_barrel_red_tall_001_diff.dds
+
+newmtl Main_Barrel
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\co_barrel_hoonigan_001_diff.dds
+
+newmtl Concrete_concrete_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\concrete_diff.dds
+
+newmtl SIGN_LIME_VPRacing_Sign
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_vpracing_001.dds
+
+newmtl SIGN_LIME_VPRacing_Base
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_sunoco_a_001_clubbed_diff.dds
+
+newmtl Seconds0
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lime_ledpitboardnums_001_diff.dds
+
+newmtl Seconds1
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lime_ledpitboardnums_001_diff.dds
+
+newmtl Minutes1
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lime_ledpitboardnums_001_diff.dds
+
+newmtl Minutes0
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lime_ledpitboardnums_001_diff.dds
+
+newmtl SIGN_LIME_Timer_CarNumbers_001
+Ka 0.5 0.5 0.5
+Kd 0.5 0.5 0.5
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lime_ledpitboardnums_001_diff.dds
+
+newmtl Start_Light___On_3
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lime_treelights_001_diff.dds
+
+newmtl SIGN_LIME_MPH_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_mph_001_diff.dds
+
+newmtl SIGN_LIME_Map_003
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl SIGN_LIME_Map_002
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_map_002_diff.dds
+
+newmtl SIGN_LIME_Directory_003
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_directory_003_diff.dds
+
+newmtl SIGN_LIME_Directory_002
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_directory_002_diff.dds
+
+newmtl SIGN_LIME_Camping_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl SIGN_LIME_Advert_J_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_advert_j_001_diff.dds
+
+newmtl SIGN_LIME_Advert_I_001_sign
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_advert_i_001_diff.dds
+
+newmtl SIGN_LIME_Advert_I_001_Metal
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_clubbed_diff.dds
+
+newmtl SIGN_LIME_Advert_H_001_Signage
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_advert_a_001_diff.dds
+
+newmtl SIGN_LIME_Advert_H_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_clubbed_diff.dds
+
+newmtl SIGN_LIME_Advert_G_001_Signage
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_advert_g_001_diff.dds
+
+newmtl SIGN_LIME_Advert_G_001_Concrete&Metal
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_clubbed_diff.dds
+
+newmtl SIGN_LIME_Advert_F_001_metal
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_clubbed_diff.dds
+
+newmtl SIGN_LIME_Advert_F_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_sunoco_b_001_diff.dds
+
+newmtl SIGN_LIME_Advert_E_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_advert_e_001_diff.dds
+
+newmtl SIGN_LIME_Advert_E_001_metal
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_clubbed_diff.dds
+
+newmtl SIGN_LIME_Advert_D_001_metal
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_clubbed_diff.dds
+
+newmtl SIGN_LIME_Advert_D_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_advert_d_001_diff.dds
+
+newmtl SIGN_LIME_Advert_C_001_metal
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_clubbed_diff.dds
+
+newmtl SIGN_LIME_Advert_C_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_advert_c_001_diff.dds
+
+newmtl SIGN_LIME_Advert_B_001_metal
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_clubbed_diff.dds
+
+newmtl SIGN_LIME_Advert_B_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_advert_b_001_diff.dds
+
+newmtl SIGN_LIME_Advert_A_001_metal
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_clubbed_diff.dds
+
+newmtl Umbrella_002
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_umbrella_004_diff.dds
+
+newmtl RCEDAY_trash_B_002
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_trashbarrel_002_diff.dds
+
+newmtl RCEDAY_TrashBarrel_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_trashbarrel_001_diff.dds
+
+newmtl RCEDAY_toolchest_C_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_toolchest_c_001_diff.dds
+
+newmtl Toolcart_002
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_toolcart_002_diff.dds
+
+newmtl Toolcart_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_toolcart_001_diff.dds
+
+newmtl RCEDAY_Tent_Striped_Red_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_tent_striped_red_001_diff.dds
+
+newmtl Tent_RecS_001_Main
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_tent_recs_main_diff.dds
+
+newmtl Tent_RecS_Poles
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\metal_galvanized_002_diff.dds
+
+newmtl RCEDAY_Tent_L_001_Main
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_tent_l_001_diff.dds
+
+newmtl RCEDAY_Tent_L_001_galvanized
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_catchfnc_pole_001_diff.dds
+
+newmtl tent_rceday_tent_dome_002_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_tent_dome_002_diff.dds
+
+newmtl tent_rceday_tent_dome_001_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_tent_dome_001_diff.dds
+
+newmtl RCEDAY_Tent_Checkered_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_tent_checkered_002_diff.dds
+
+newmtl RCEDAY_Table_plastic_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_tableplastic_001_diff.dds
+
+newmtl Picnic_Table
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_table_picnic_a_001_diff.dds
+
+newmtl BLDG_LGNA_Potty_002_a
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_portapotty_d_001_diff.dds
+
+newmtl RCEDAY_PortaPotty_001.tga
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_portapotty_a_001_diff.dds
+
+newmtl Matte
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_toolcart_003_diff.dds
+
+newmtl MetalShiny
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_toolcart_003_diff.dds
+
+newmtl Metal_rceday_pitkit_toolbox_cart_001_metal_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_toolbox_cart_001_metal_diff.dds
+
+newmtl Tire
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_toolbox_cart_001_tire_diff.dds
+
+newmtl Base
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_toolbox_cart_001_base_diff.dds
+
+newmtl Cart001Tire
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_toolbox_cart_001_tire_diff.dds
+
+newmtl Cart001Metal
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_toolbox_cart_001_metal_diff.dds
+
+newmtl Cart001Base
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_toolbox_cart_001_base_diff.dds
+
+newmtl plated
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\diamondtread_001_diff.dds
+
+newmtl steel
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\metal_brushed_lr_diff.dds
+
+newmtl paint_rceday_pitkit_tirecart_002_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_tirecart_002_diff.dds
+
+newmtl paintWhite
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl rubber_rceday_pitkit_tirecart_001_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_tirecart_001_diff.dds
+
+newmtl Metal_Tele_metal_galvanized_002_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\metal_galvanized_002_diff.dds
+
+newmtl Paint_Tele_metal_painted_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\metal_painted_diff.dds
+
+newmtl Metal_Pole
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl D2
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_002_diff.dds
+
+newmtl Fabric_rceday_pitkit_tent_001_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_tent_001_diff_1.dds
+
+newmtl Decals
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_telemetrystickers_001_diff.dds
+
+newmtl Signs
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_controlbooth_stickers_001_diff.dds
+
+newmtl Leather
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\leather_black_001_diff.dds
+
+newmtl Paint2
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl Metal_Black
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\metal_black_002_diff.dds
+
+newmtl Metal_Grate
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\diamondtread_001_diff.dds
+
+newmtl Monitors
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_monitor_screen_002_diff.dds
+
+newmtl Metal_metal_galvanized_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\metal_galvanized_diff.dds
+
+newmtl Rubber_FFFFFFFF
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl Paint_FFFFFFFF
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl suit_FFFFFFFF
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl helmet
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgba000000ff.dds
+
+newmtl visor
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgba908e90ff.dds
+
+newmtl Hardware
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl paint
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_generator_001_diff.dds
+
+newmtl rubber
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_generator_001_diff.dds
+
+newmtl Glass_EDEFC5FF
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaedefc5ff.dds
+
+newmtl D1
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_001_diff.dds
+
+newmtl MetalPole
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl Plastic
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_fueltank_001_diff_1.dds
+
+newmtl FuelMetalReflective
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_fueltank_001_diff_1.dds
+
+newmtl FuelChrome
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_fueltank_001_diff_1.dds
+
+newmtl Glass_A0B0C7FF
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaa0b0c7ff.dds
+
+newmtl PaintedMetal
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_fireextinguisher_001_diff.dds
+
+newmtl Barrel_rceday_pitkit_barrel_002_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_barrel_002_diff.dds
+
+newmtl Barrel
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_barrel_001_diff.dds
+
+newmtl Glass
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl chair_plastic
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_chair_a_003_diff.dds
+
+newmtl Metal_Tent
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_tent_001_diff.dds
+
+newmtl PitKit_B_003_D2
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_002_diff.dds
+
+newmtl PitKit_B_003_Metal_pole
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl Glass_Tele
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl MetalReflectiveFuel
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_fueltank_001_diff_1.dds
+
+newmtl Metal_Tele
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\metal_galvanized_diff.dds
+
+newmtl MetalShinyTool003
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_toolcart_003_diff.dds
+
+newmtl Rubber_Tele
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl ChromeFuel
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_fueltank_001_diff_1.dds
+
+newmtl Tire_Tool001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_toolbox_cart_001_tire_diff.dds
+
+newmtl MetalTool01
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_toolbox_cart_001_metal_diff.dds
+
+newmtl ToolCartBase001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_toolbox_cart_001_base_diff.dds
+
+newmtl Paint_Tele
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl PitKit_B_003_D1
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_001_diff.dds
+
+newmtl Fabric_Tent
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_tent_001_diff_1.dds
+
+newmtl Lightbulb
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lightfluorescent_a_001_diff.dds
+
+newmtl RCEDAY_OilCart_A_001_PaintedMetal
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_oilcart_a_001_diff.dds
+
+newmtl RCEDAY_OilCart_A_001_Matteobjects
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_oilcart_a_001_diff.dds
+
+newmtl TentG
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_tent_g_001_diff.dds
+
+newmtl TentD
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_tent_g_001_diff.dds
+
+newmtl Metal_rceday_flatmetal_002_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_flatmetal_002_diff.dds
+
+newmtl gasCompressed_Cylinder_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_gas_compressed_001_diff.dds
+
+newmtl RCEDAY_Flag_Pole_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\concrete_diff.dds
+
+newmtl RCEDAY_Flag_Blue_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_flag_blue_001_diff.dds
+
+newmtl Material__1
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl RCEDAY_Flag_Black_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\continental.dds
+
+newmtl fire_ext
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_fireextinguisher_003_diff.dds
+
+newmtl RCEDAY_fire_extL
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl RCEDAY_EZup_D_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_ezup_d_001_diff.dds
+
+newmtl RCEDAY_Ezup_B_002
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_ezup_a_001_diff2.dds
+
+newmtl RCEDAY_Ezup_B_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_ezup_b_001_diff.dds
+
+newmtl RCEDAY_Ezup_A_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_ezup_nobrand_001_diff.dds
+
+newmtl Tent_rceday_tent_long_003_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_tent_long_003_diff.dds
+
+newmtl Metal_interior
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_ez-up_metal_diff.dds
+
+newmtl Vinyl
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_ez-up_003_vinyl_diff.dds
+
+newmtl Poles
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_ez-up_metal_diff.dds
+
+newmtl Tent
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_ez-up_002_vinyl_diff.dds
+
+newmtl Metal_rceday_ez-up_metal_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_ez-up_metal_diff.dds
+
+newmtl Tent_Vinyl
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_ez-up_001_vinyl_diff6.dds
+
+newmtl RCEDAY_EZSide_001_rceday_ezside_001_diffuse03
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_ezside_001_diffuse03.dds
+
+newmtl RCEDAY_EZSide_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_ezside_001_diff.dds
+
+newmtl RCEDAY_ezup_supports_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_ezup_supports_001_diff.dds
+
+newmtl Black
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rgbaffffffff.dds
+
+newmtl Galvanized
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\metal_galvanized_002_diff.dds
+
+newmtl Tintable
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\metal_painted_diff.dds
+
+newmtl RCEDAY_ControlBooth_I_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_controlbooth_i_001_diff.dds
+
+newmtl RCEDAY_Chair_plastic_001
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_chair_a_003_diff.dds
+
+newmtl RCEDAY_chair_folding
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_chair_002_diff.dds
+
+newmtl painted_metal
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\metal_painted_diff.dds
+
+newmtl metal_metal_galvanized_diffuse2
+Ka 0.2 0.2 0.2
+Kd 0.1 0.1 0.1
+Ks 0.04 0.04 0.04
+Ns 16
+illum 2
+map_Kd texture\metal_galvanized_diffuse2.dds
+
+newmtl crates
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_cameraplatform_001_diff.dds
+
+newmtl wood
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\wood_beams_001_diff.dds
+
+newmtl bodyMat_cameramancombined_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\cameramancombined_diff.dds
+
+newmtl Metal_rceday_camera_001_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_camera_001_diff.dds
+
+newmtl OBJ_LGNA_Pole_Wood_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lgna_pole_wood_001_diff.dds
+
+newmtl OBJ_Plastic_001.tga
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\concrete_diff.dds
+
+newmtl obj_telephone_pole_wood_001.tga
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_telepole_wood_001_diff.dds
+
+newmtl OBJ_Power_Transformer_001.tga
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_power_transformer_001_diff.dds
+
+newmtl OBJ_LGNA_Pole_Detail_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lgna_pole_detail_001_diff.dds
+
+newmtl Power_transformer_
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_power_transformer_001_diff.dds
+
+newmtl Telephone_pole_
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lgna_pole_wood_001_diff.dds
+
+newmtl TeleophonePoleMetal
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\concrete_diff.dds
+
+newmtl Transformer
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_power_transformer_001_diff.dds
+
+newmtl TeleophonePoleWood
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lgna_pole_wood_001_diff.dds
+
+newmtl OBJ_LoudSpeaker_Pole_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\metal_rusty_diff.dds
+
+newmtl OBJ_LoudSpeaker_Speaker_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_speaker_e_001_diff.dds
+
+newmtl OBJ_LIME_WinnerCircle_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lime_winnercircle_001_diff.dds
+
+newmtl OBJ_LIME_Utility_Wires_003
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\concrete_diff.dds
+
+newmtl OBJ_LIME_Utility_Wires_002
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\concrete_diff.dds
+
+newmtl OBJ_LIME_Utility_Wires_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\concrete_diff.dds
+
+newmtl OBJ_LIME_Utility_001_ChainLink
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lime_utility_001_chainlink_diff.dds
+
+newmtl OBJ_LIME_Utility_001_Clubbed
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lime_utility_001_clubbed_diff.dds
+
+newmtl OBJ_LIME_RaceDayWall_001
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lime_racedaywall_001_diff.dds
+
+newmtl OBJ_LIME_Birdhouse_001_alpha
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lime_birdhouse_001_alpha_diff.dds
+
+newmtl OBJ_LIME_Birdhouse_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_lime_birdhouse_001_diff.dds
+
+newmtl RCEDAY_AirCan_Shadows_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_dropshadows_001_diff.dds
+
+newmtl Metal_obj_hs11_aircan_001_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_hs11_aircan_001_diff.dds
+
+newmtl Pole
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_weatherpole_001_alpha_diff.dds
+
+newmtl BLDG_LIME_Tower_001_alpha
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_tower_001_alpha_diff.dds
+
+newmtl BLDG_LIME_Tower_001_clubbed
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_tower_001_clubbed_dif_1.dds
+
+newmtl BLDG_LIME_Tower_001_planks
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_tower_001_planks_diff.dds
+
+newmtl BLDG_LIME_Timing_001_Concrete
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_timing_001_concrete_diff.dds
+
+newmtl BLDG_LIME_Timing_001_Wood
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_timing_001_wood_diff.dds
+
+newmtl BLDG_LIME_Timing_001_Planks
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_timing_001_planks_diff.dds
+
+newmtl BLDG_LIME_Timing_001_alpha
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_timing_001_alpha_diff.dds
+
+newmtl Concrete
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\sign_lime_clubbed_diff.dds
+
+newmtl BLDG_LIME_Store_001_Clubbed
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_store_001_clubbed_diff.dds
+
+newmtl BLDG_LIME_Store_001_Planks
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_store_001_planks_diff.dds
+
+newmtl BLDG_LIME_Store_001_Front
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_store_001_front_diff.dds
+
+newmtl BLDG_LIME_Shed_F_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_shed_f_001_diff.dds
+
+newmtl BLDG_LIME_Shed_E_001_Planks
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_shed_e_001_wooden_planks_diff.dds
+
+newmtl BLDG_LIME_Shed_E_001_Clubbed
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_shed_e_001_clubbed_diff.dds
+
+newmtl BLDG_LIME_Shed_D_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_shed_d_001_diff.dds
+
+newmtl BLDG_LIME_Restroom_B_Cross_Hatch
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_restroom_b_cross_hatch_diff.dds
+
+newmtl BLDG_LIME_Restroom_B_001_Clubbed
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_restroom_b_001_clubbed_diff.dds
+
+newmtl BLDG_LIME_OutfieldChalet_Reling
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_outfieldchalet_001_reling_diff.dds
+
+newmtl BLDG_LIME_OutfieldChalet_Clubbed
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_outfieldchalet_001_clubbed_diff.dds
+
+newmtl BLDG_LIME_OutfieldChalet_Roof
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_outfieldchalet_001_roof_diff.dds
+
+newmtl BLDG_LIME_OutfieldChalet_Planks
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_outfieldchalet_001_planks_diff.dds
+
+newmtl BLDG_LIME_Media_Window_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_ems_001_window_diff.dds
+
+newmtl BLDG_LIME_Media_Glass_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_timing_glass_001_diff.dds
+
+newmtl BLDG_LIME_Timing_Interior_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_timing_interior_001_diff.dds
+
+newmtl BLDG_LIME_Media_001_InnerrRoof
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_media_001_innerroof_diff.dds
+
+newmtl BLDG_LIME_Media_001_Roof
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_media_001_roof_diff.dds
+
+newmtl BLDG_LIME_Media_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_media_001_diff.dds
+
+newmtl BLDG_LIME_Media_001_Planks
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_media_001_planks_diff.dds
+
+newmtl BLDG_LIME_Maint_001_Roof
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_maint_001_roof_diff.dds
+
+newmtl BLDG_LIME_Maint_001_Clubbed
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_maint_001_clubbed_diff.dds
+
+newmtl BLDG_LIME_Maint_001_plank
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_maint_001_plank_diff.dds
+
+newmtl BLDG_LIME_LimerockChalet_001_Alpha
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_limerockchalet_001_alpha_diff.dds
+
+newmtl BLDG_LIME_LimerockChalet_001_Roof
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_limerockchalet_001_roof_diff.dds
+
+newmtl BLDG_LIME_LimerockChalet_001_Planks
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_limerockchalet_001_planks_diff.dds
+
+newmtl BLDG_LIME_LimerockChalet_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_limerockchalet_001_diff.dds
+
+newmtl BLDG_LIME_InfieldChalet_001_Planks
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_infieldchalet_001_planks_diff.dds
+
+newmtl Roof_bldg_lime_cafe_c_001_roof_diff
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_cafe_c_001_roof_diff.dds
+
+newmtl BLDG_LIME_InfieldChalet_001_Clubbed
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_infieldchalet_001_clubbed_diff.dds
+
+newmtl BLDG_LIME_Gazebo_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_gazebo_001_diff.dds
+
+newmtl BLDG_LIME_EMS_001_Clubbed
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_ems_001_clubbed_diff.dds
+
+newmtl Roof
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_maint_001_roof_diff.dds
+
+newmtl BLDG_LIME_EMS_001_Planks
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_ems_001_planks_diff.dds
+
+newmtl BLDG_LIME_Electrical_001_Alpha
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_electrical_001_alpha_diff.dds
+
+newmtl BLDG_LIME_Electrical_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_electrical_001_diff.dds
+
+newmtl BLDG_LIME_CornerStand_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_cornerstand_001_diff.dds
+
+newmtl BLDG_LIME_CornerHut_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_cornerhut_001_diff.dds
+
+newmtl BLDG_LIME_Cafe_C_001_Alpha
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_cafe_c_001_alpha_diff.dds
+
+newmtl BLDG_LIME_Cafe_C_001_Roof
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_cafe_c_001_roof_diff.dds
+
+newmtl BLDG_LIME_Cafe_C_001_Planks
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_cafe_c_001_planks_diff.dds
+
+newmtl BLDG_LIME_Cafe_C_001_Clubbed
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_cafe_c_001_clubbed_diff.dds
+
+newmtl BLDG_LIME_Cafe_B_001_Cross_Hatch_Alpha
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_cafe_b_001_alpha_diff.dds
+
+newmtl BLDG_LIME_Cafe_B_001_Roof
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_cafe_b_001_roof_diff.dds
+
+newmtl BLDG_LIME_Cafe_B_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_cafe_b_001_diff.dds
+
+newmtl BLDG_LIME_Cafe_B_001_Planks
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_cafe_b_001_planks_diff.dds
+
+newmtl BLDG_LIME_Cafe_A_001_Alpha
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_cafe_a_001_alpha_diff.dds
+
+newmtl BLDG_LIME_Cafe_A_001
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_cafe_a_001_diff.dds
+
+newmtl BLDG_LIME_Bridge_B_001_AlphaMesh
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_bridge_b_001_alpha_mesh_diff.dds
+
+newmtl BLDG_LIME_Bridge_B_001_Alpha
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_bridge_b_001_alpha_diff.dds
+
+newmtl BLDG_LIME_Bridge_B_001_Banner
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_bridge_b_001_signage_diff_1.dds
+
+newmtl BLDG_LIME_Bridge_A_001_Metal
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\bldg_lime_bridge_a_001_metal_diff.dds
+
+newmtl Tyre
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\twall_stack_black_001_diff.dds
+
+newmtl Side_belt
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\twall_rubber_belt_001_diff.dds
+
+newmtl Flag
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\obj_flag_americanflag_001_diff.dds
+

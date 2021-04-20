@@ -1,0 +1,41 @@
+newmtl Metal_Pole
+Ka 0.2 0.2 0.2
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_catchfnc_pole_001_diff.dds
+
+newmtl D2
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_002_diff.dds
+
+newmtl Fabric_Tent
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_tent_001_diff_1.dds
+bump texture\rceday_pitkit_tent_001_nrml.dds
+
+newmtl PitKit_B_003_D1
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rceday_pitkit_001_diff.dds
+
+newmtl Marshalls
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0.01 0.01 0.01
+Ns 10
+illum 2
+map_Kd texture\marshalls.dds
+

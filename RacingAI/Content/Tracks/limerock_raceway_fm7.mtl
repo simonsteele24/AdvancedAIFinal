@@ -1,0 +1,191 @@
+newmtl water
+Ka 0.1 0.1 0.1
+Kd 0.1 0.1 0.1
+Ks 1 1 1
+Ns 250
+illum 2
+map_Kd texture\tileable classic water texturenewdesat.dds
+bump texture\water_nm.dds
+
+newmtl road_lime_rumblestrip_004
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0.1 0.1 0.1
+Ns 16
+illum 2
+map_Kd texture\road_lime_rumble_b_001_diff.dds
+bump texture\road_lime_rumble_b_001_nrml.dds
+
+newmtl road_lime_rumblestrip_001
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0.05 0.05 0.05
+Ns 16
+illum 2
+map_Kd texture\road_lime_rumble_a_001_diffnewfix11.dds
+bump texture\road_lime_rumble_a_001_nrml.dds
+
+newmtl gravel_paths
+Ka 0.2 0.2 0.2
+Kd 0.2 0.2 0.2
+Ks 0.1 0.1 0.1
+Ns 10
+illum 2
+map_Kd texture\magny_sand.dds
+bump texture\sand_trap_NM.dds
+
+newmtl roadlines_white
+Ka 0.4 0.4 0.4
+Kd 0.4 0.4 0.4
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rdline_lime_clubbed_001_diff.dds
+
+newmtl RDLINE_LIME_Track_LOGO_001
+Ka 0.4 0.4 0.4
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\rdline_lime_track_logo_001_diff.dds
+
+newmtl TERR_LIME_Infield_005_concrete
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\concrete_diff.dds
+
+newmtl Concrete_concrete_diff
+Ka 0.2 0.2 0.2
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\magny_sand.dds
+
+newmtl CO_Brakemarker_002
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\co_marker_001_diff.dds
+
+newmtl core_barr_cone_a
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 10
+illum 2
+map_Kd texture\core_barr_cone_a_d.dds
+
+newmtl TERR_LIME_Infield_005_drain
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\barr_lime_gaurdrail_001_galvanized_diff.dds
+
+newmtl TERR_LIME_Infield_005_rock
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\stones.dds
+
+newmtl runoff
+Ka 0.7 0.7 0.7
+Kd 0.6 0.6 0.6
+Ks 0 0 0
+Ns 20
+illum 2
+map_Kd texture\road_lime_asphaltsmooth_001_diff.dds
+
+newmtl road_lime_inner
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 30
+illum 2
+map_Kd texture\road_new.dds
+
+newmtl lime_grass
+Ka 0.4 0.4 0.4
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 10
+illum 2
+map_Kd texture\suzukanew.dds
+
+newmtl lime_grass_dry
+Ka 0.4 0.4 0.4
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 10
+illum 2
+map_Kd texture\suzukanew.dds
+
+newmtl road_main_new
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 30
+illum 2
+map_Kd texture\road_new.dds
+
+newmtl road_lime_rumblestrip_003
+Ka 0.4 0.4 0.4
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 20
+illum 2
+map_Kd texture\road_lime_concrete_001_diff.dds
+
+newmtl road_main
+Ka 0.3 0.3 0.3
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 30
+illum 2
+map_Kd texture\road_new.dds
+
+newmtl grass_edges
+Ka 0.4 0.4 0.4
+Kd 0.3 0.3 0.3
+Ks 0 0 0
+Ns 10
+illum 2
+map_Kd texture\suzukanew.dds
+
+newmtl trackedges
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 20
+illum 2
+map_Kd texture\grassedgetest2.dds
+bump texture\grassedgetest2nrm.dds
+
+newmtl runoffedge
+Ka 0.2 0.2 0.2
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 20
+illum 2
+map_Kd texture\sandedgenewtest.dds
+bump texture\sandedgenewnrm.dds
+
+newmtl drains
+Ka 0.3 0.3 0.3
+Kd 0.2 0.2 0.2
+Ks 0 0 0
+Ns 16
+illum 2
+map_Kd texture\road_lime_roaddetail_001_diff.dds
+bump texture\road_lime_roaddetail_001_nrml.dds
+
