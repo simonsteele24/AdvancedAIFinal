@@ -26,12 +26,15 @@ protected:
 	/* Private Conditionals */
 	UPROPERTY() bool bHasFoundAnAction = false;
 
+	/* Decision Nodes */
+	UPROPERTY()	ABaseDecisionNode* rootDecision;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	/* Decision Nodes */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)	ABaseDecisionNode* rootDecision;
+	/* Decision classes */
+	UPROPERTY(EditDefaultsOnly) TSubclassOf<ABaseDecisionNode> rootClass;
 
 	/* Public Functions */
 	UFUNCTION(BlueprintCallable) bool TraverseTree();

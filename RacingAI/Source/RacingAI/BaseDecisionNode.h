@@ -20,6 +20,14 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	/* Decision Objects */
+	UPROPERTY() ABaseDecisionNode* trueDecision = nullptr;
+	UPROPERTY() ABaseDecisionNode* falseDecision = nullptr;
+
+	/* Actions Objects */
+	UPROPERTY() ABaseAction* trueAction = nullptr;
+	UPROPERTY() ABaseAction* falseAction = nullptr;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -30,11 +38,11 @@ public:
 	/* Conditionals */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite) bool bIsActionNode = false;
 
-	// Decisions
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)	ABaseDecisionNode* trueDecision;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)	ABaseDecisionNode* falseDecision;
+	/* Decision Classes */
+	UPROPERTY(EditDefaultsOnly)	TSubclassOf<ABaseDecisionNode> trueDecisionClass;
+	UPROPERTY(EditDefaultsOnly)	TSubclassOf<ABaseDecisionNode> falseDecisionClass;
 
-	// Actions
-	UPROPERTY(EditAnywhere, BlueprintReadWrite) ABaseAction* trueAction;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)	ABaseAction* falseAction;
+	/* Action Classes */
+	UPROPERTY(EditDefaultsOnly) TSubclassOf<ABaseAction> trueActionClass;
+	UPROPERTY(EditDefaultsOnly)	TSubclassOf<ABaseAction> falseActionClass;
 };

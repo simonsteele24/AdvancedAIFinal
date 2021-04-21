@@ -29,7 +29,19 @@ void ADecisionTree::Tick(float DeltaTime)
 // This function creates the entire decision tree
 void ADecisionTree::ConstructTree() 
 {
+	if (rootClass == nullptr) 
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Root Class Invalid!"));
+		return;
+	}
 
+	FVector Location(0.0f, 0.0f, 0.0f);
+	FRotator Rotation(0.0f, 0.0f, 0.0f);
+	FActorSpawnParameters SpawnInfo;
+
+	
+
+	rootDecision = GetWorld()->SpawnActor<ABaseDecisionNode>(rootClass,Location, Rotation, SpawnInfo);
 }
 
 // This function traverses the decision tree to get the correct action. Returns if a valid action was found
