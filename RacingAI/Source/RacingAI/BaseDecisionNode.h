@@ -1,0 +1,40 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "BaseAction.h"
+#include "BaseDecisionNode.generated.h"
+
+UCLASS()
+class RACINGAI_API ABaseDecisionNode : public AActor
+{
+	GENERATED_BODY()
+	
+public:	
+	// Sets default values for this actor's properties
+	ABaseDecisionNode();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	/* Public Functions */
+	UFUNCTION() ABaseDecisionNode* ExecuteDecision(bool& bHasFoundAction);
+
+	/* Conditionals */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite) bool bIsActionNode = false;
+
+	// Decisions
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)	ABaseDecisionNode* trueDecision;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)	ABaseDecisionNode* falseDecision;
+
+	// Actions
+	UPROPERTY(EditAnywhere, BlueprintReadWrite) ABaseAction* trueAction;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)	ABaseAction* falseAction;
+};
