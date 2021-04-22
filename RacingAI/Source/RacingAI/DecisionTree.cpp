@@ -15,8 +15,6 @@ ADecisionTree::ADecisionTree()
 void ADecisionTree::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	ConstructTree(); // Construct tree after initializing
 }
 
 // Called every frame
@@ -27,7 +25,7 @@ void ADecisionTree::Tick(float DeltaTime)
 }
 
 // This function creates the entire decision tree
-void ADecisionTree::ConstructTree() 
+void ADecisionTree::ConstructTree(AMyHatchbackAIController* newController)
 {
 	if (rootClass == nullptr) 
 	{
@@ -39,7 +37,7 @@ void ADecisionTree::ConstructTree()
 	FRotator Rotation(0.0f, 0.0f, 0.0f);
 	FActorSpawnParameters SpawnInfo;
 
-	
+	controller = newController;
 
 	rootDecision = GetWorld()->SpawnActor<ABaseDecisionNode>(rootClass,Location, Rotation, SpawnInfo);
 }
@@ -59,7 +57,7 @@ bool ADecisionTree::TraverseTree()
 	// Traverse tree until current node is equal to null 
 	while (currentNode != nullptr) 
 	{
-		currentNode = currentNode->ExecuteDecision(bHasFoundAnAction);
+		currentNode = currentNode->ExecuteDecision(controller, bHasFoundAnAction);
 	}
 
 	return bHasFoundAnAction; // Return if action has been found

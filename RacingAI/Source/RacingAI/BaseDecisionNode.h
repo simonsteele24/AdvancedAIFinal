@@ -20,23 +20,19 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	/* Decision Objects */
-	UPROPERTY() ABaseDecisionNode* trueDecision = nullptr;
-	UPROPERTY() ABaseDecisionNode* falseDecision = nullptr;
-
-	/* Actions Objects */
-	UPROPERTY() ABaseAction* trueAction = nullptr;
-	UPROPERTY() ABaseAction* falseAction = nullptr;
-
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	/* Public Functions */
-	UFUNCTION() ABaseDecisionNode* ExecuteDecision(bool& bHasFoundAction);
+	UFUNCTION() void ConstructDecision();
+	UFUNCTION() virtual ABaseDecisionNode* ExecuteDecision(class AMyHatchbackAIController* newController, bool& bHasFoundAction);
 
 	/* Conditionals */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite) bool bIsActionNode = false;
+
+	/* Controllers */
+	UPROPERTY() class AMyHatchbackAIController* controller;
 
 	/* Decision Classes */
 	UPROPERTY(EditDefaultsOnly)	TSubclassOf<ABaseDecisionNode> trueDecisionClass;
@@ -45,4 +41,12 @@ public:
 	/* Action Classes */
 	UPROPERTY(EditDefaultsOnly) TSubclassOf<ABaseAction> trueActionClass;
 	UPROPERTY(EditDefaultsOnly)	TSubclassOf<ABaseAction> falseActionClass;
+
+	/* Decision Objects */
+	UPROPERTY() ABaseDecisionNode* trueDecision = nullptr;
+	UPROPERTY() ABaseDecisionNode* falseDecision = nullptr;
+
+	/* Actions Objects */
+	UPROPERTY() ABaseAction* trueAction = nullptr;
+	UPROPERTY() ABaseAction* falseAction = nullptr;
 };

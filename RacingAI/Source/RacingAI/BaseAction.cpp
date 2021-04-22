@@ -2,6 +2,7 @@
 
 
 #include "BaseAction.h"
+#include "MyHatchbackAIController.h"
 
 // Sets default values
 ABaseAction::ABaseAction()
@@ -25,3 +26,8 @@ void ABaseAction::Tick(float DeltaTime)
 
 }
 
+// Performs specific action in decision tree
+void ABaseAction::PerformAction(AMyHatchbackAIController* newController)
+{
+	controller = newController;
+}

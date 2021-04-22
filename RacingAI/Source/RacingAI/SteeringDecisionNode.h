@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "BaseDecisionNode.h"
+#include "DrawDebugHelpers.h"
 #include "SteeringDecisionNode.generated.h"
 
 /**
@@ -14,4 +15,7 @@ class RACINGAI_API ASteeringDecisionNode : public ABaseDecisionNode
 {
 	GENERATED_BODY()
 	
+public:
+	ABaseDecisionNode* ExecuteDecision(class AMyHatchbackAIController* newController, bool& bHasFoundAction);
+
 };
