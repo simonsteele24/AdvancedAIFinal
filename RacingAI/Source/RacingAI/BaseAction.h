@@ -24,7 +24,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	// Performs specific action in decision tree
-	UFUNCTION() void PerformAction(class AMyHatchbackAIController* newController);
+	UFUNCTION() virtual void PerformAction(class AMyHatchbackAIController* newController);
 
 	/* Controllers */
 	UPROPERTY() class AMyHatchbackAIController* controller;
