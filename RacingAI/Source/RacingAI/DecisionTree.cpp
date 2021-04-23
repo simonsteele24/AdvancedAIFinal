@@ -40,6 +40,7 @@ void ADecisionTree::ConstructTree(AMyHatchbackAIController* newController)
 	controller = newController;
 
 	rootDecision = GetWorld()->SpawnActor<ABaseDecisionNode>(rootClass,Location, Rotation, SpawnInfo);
+	rootDecision->ConstructDecision();
 }
 
 // This function traverses the decision tree to get the correct action. Returns if a valid action was found

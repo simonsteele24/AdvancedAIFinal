@@ -15,6 +15,9 @@ class RACINGAI_API ASteeringDecisionNode : public ABaseDecisionNode
 {
 	GENERATED_BODY()
 	
+protected:
+	UFUNCTION() class AMyHatchback* GetClosestCar();
+
 public:
 	ABaseDecisionNode* ExecuteDecision(class AMyHatchbackAIController* newController, bool& bHasFoundAction);
 

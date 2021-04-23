@@ -3,6 +3,7 @@
 
 #include "SteeringDecisionNode.h"
 #include "MyHatchbackAIController.h"
+#include "Kismet/GameplayStatics.h"
 #include "MyHatchback.h"
 
 ABaseDecisionNode* ASteeringDecisionNode::ExecuteDecision(class AMyHatchbackAIController* newController, bool& bHasFoundAction)
@@ -10,19 +11,57 @@ ABaseDecisionNode* ASteeringDecisionNode::ExecuteDecision(class AMyHatchbackAICo
 	controller = newController;
 	bHasFoundAction = true;
 	
-	FHitResult out;
+	AMyHatchback * closestHatchback = GetClosestCar();
 
-	FVector Start = controller->GetPawn()->GetActorLocation() + FVector(0, 0, 20);
-	FVector End = (controller->GetPawn()->GetActorLocation() + FVector(0, 0, 20)) + controller->GetPawn()->GetActorForwardVector() * 2000.0f;
-
-	GetWorld()->LineTraceSingleByChannel(out, Start, End, ECollisionChannel::ECC_Visibility);
-	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
-
-	if (Cast<AMyHatchback>(out.Actor) != nullptr) 
+	if (closestHatchback != nullptr) 
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, TEXT("Hitting!"));
+		FVector dist = closestHatchback->GetActorLocation() - controller->GetPawn()->GetActorLocation();
+		float distance = dist.Size();
+		dist.Normalize();
+		float dotProduct = FVector::DotProduct(controller->GetPawn()->GetActorRightVector(), dist);
+
+		if (distance < 2000.0f) 
+		{
+			if (dotProduct > 0)
+			{
+				trueAction->PerformAction(controller);
+			}
+			else
+			{
+				falseAction->PerformAction(controller);
+			}
+		}
 	}
 
 
 	return nullptr;
+}
+
+class AMyHatchback* ASteeringDecisionNode::GetClosestCar() 
+{
+	TArray<AActor*> outActor;
+
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AMyHatchback::StaticClass(), outActor);
+
+	AMyHatchback* closest = nullptr;
+
+	for (int i = 0; i < outActor.Num(); i++) 
+	{
+		float closestDistance = 99999999.0f;
+		FVector dist = outActor[i]->GetActorLocation() - controller->GetPawn()->GetActorLocation();
+		float distance = dist.Size();
+		dist.Normalize();
+		float dotProduct = FVector::DotProduct(controller->GetPawn()->GetActorForwardVector(), dist);
+
+		if (dotProduct > 0 && controller->GetPawn() != outActor[i]) 
+		{
+			if (distance < closestDistance) 
+			{
+				closestDistance = distance;
+				closest = Cast<AMyHatchback>(outActor[i]);
+			}
+		}
+	}
+
+	return closest;
 }
