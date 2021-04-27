@@ -17,4 +17,5 @@ class RACINGAI_API AMyHatchbackAIController : public AAIController
 public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite) FVector Steering;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite) float AutoThrottle;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite) FVector CheckpointLocation;
 };
