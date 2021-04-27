@@ -15,8 +15,6 @@ ACustomBehaviorTree::ACustomBehaviorTree()
 void ACustomBehaviorTree::BeginPlay()
 {
 	Super::BeginPlay();
-	InitializeTree();
-	
 }
 
 // Called every frame
@@ -33,6 +31,10 @@ void ACustomBehaviorTree::RunTree()
 	{
 		rootObject->ExecuteNode();
 	}
+	else 
+	{
+		InitializeTree();
+	}
 }
 
 // This function initializes the tree at start by spawning the root
@@ -45,4 +47,5 @@ void ACustomBehaviorTree::InitializeTree()
 
 	// Spawn root
 	rootObject = GetWorld()->SpawnActor<ACustomBehaviorTreeNode>(rootClass, Location, Rotation, SpawnInfo);
+	rootObject->treeOwner = treeOwner;
 }

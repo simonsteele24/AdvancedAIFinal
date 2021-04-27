@@ -38,5 +38,6 @@ void ACustomSequencerNode::ConstructSequencer()
 
 		// Spawn sequencer
 		sequencerObjects.Add(GetWorld()->SpawnActor<ACustomBehaviorTreeNode>(sequencerClasses[i], Location, Rotation, SpawnInfo));
+		sequencerObjects[sequencerObjects.Num() - 1]->treeOwner = treeOwner;
 	}
 }

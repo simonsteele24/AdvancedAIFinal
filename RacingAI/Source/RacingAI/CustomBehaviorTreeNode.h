@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "AIController.h"
 #include "CustomBehaviorTreeNode.generated.h"
 
 UCLASS()
@@ -25,5 +26,6 @@ public:
 
 	/* Public Functions */
 	UFUNCTION(BlueprintCallable) virtual ACustomBehaviorTreeNode * ExecuteNode(); // This function executes whenever the node is called
+	UPROPERTY() AAIController* treeOwner; // Owner of this behavior tree
 
 };

@@ -36,4 +36,6 @@ public:
 	/* Public Funcs */
 	UFUNCTION(BlueprintCallable) void RunTree(); // This function executes the tree
 
+	UPROPERTY(BlueprintReadWrite) AAIController* treeOwner; // Owner of this behavior tree
+
 };

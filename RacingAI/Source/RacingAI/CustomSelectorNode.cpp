@@ -33,5 +33,6 @@ void ACustomSelectorNode::ConstructSelector()
 
 		// Spawn selector
 		selectorObjects.Add(GetWorld()->SpawnActor<ACustomBehaviorTreeNode>(selectorClasses[i], Location, Rotation, SpawnInfo));
+		selectorObjects[selectorObjects.Num() - 1]->treeOwner = treeOwner;
 	}
 }
