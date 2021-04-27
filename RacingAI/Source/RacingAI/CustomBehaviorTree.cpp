@@ -15,6 +15,7 @@ ACustomBehaviorTree::ACustomBehaviorTree()
 void ACustomBehaviorTree::BeginPlay()
 {
 	Super::BeginPlay();
+	InitializeTree();
 	
 }
 
@@ -25,3 +26,23 @@ void ACustomBehaviorTree::Tick(float DeltaTime)
 
 }
 
+// This function executes the tree
+void ACustomBehaviorTree::RunTree() 
+{
+	if (rootObject != nullptr) 
+	{
+		rootObject->ExecuteNode();
+	}
+}
+
+// This function initializes the tree at start by spawning the root
+void ACustomBehaviorTree::InitializeTree() 
+{
+	// Create default parameters for spawning
+	FVector Location(0.0f, 0.0f, 0.0f);
+	FRotator Rotation(0.0f, 0.0f, 0.0f);
+	FActorSpawnParameters SpawnInfo;
+
+	// Spawn root
+	rootObject = GetWorld()->SpawnActor<ACustomBehaviorTreeNode>(rootClass, Location, Rotation, SpawnInfo);
+}
