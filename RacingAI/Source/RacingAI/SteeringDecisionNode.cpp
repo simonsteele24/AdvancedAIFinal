@@ -48,16 +48,16 @@ class AMyHatchback* ASteeringDecisionNode::GetClosestCar()
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AMyHatchback::StaticClass(), outActor);
 
 	AMyHatchback* closest = nullptr;
+	float closestDistance = 99999999.0f;
 
 	for (int i = 0; i < outActor.Num(); i++) 
 	{
-		float closestDistance = 99999999.0f;
 		FVector dist = outActor[i]->GetActorLocation() - controller->GetPawn()->GetActorLocation();
 		float distance = dist.Size();
 		dist.Normalize();
 		float dotProduct = FVector::DotProduct(controller->GetPawn()->GetActorForwardVector(), dist);
 
-		if (dotProduct > 0 && controller->GetPawn() != outActor[i]) 
+		if ((dotProduct > 0 || distance <= 2000.0f) && controller->GetPawn() != outActor[i]) 
 		{
 			if (distance < closestDistance) 
 			{
