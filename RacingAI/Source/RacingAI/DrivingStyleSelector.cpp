@@ -3,10 +3,20 @@
 
 #include "DrivingStyleSelector.h"
 #include "MyHatchbackAIController.h"
+#include "ReinforcementLearningManager.h"
 
 ACustomBehaviorTreeNode* ADrivingStyleSelector::SelectNode() 
 {
 	AMyHatchbackAIController* controller = Cast<AMyHatchbackAIController>(treeOwner);
+
+	// RL actions override everything
+	if (controller->manager->GetAction() != 0.0f) 
+	{
+		selectorObjects[2]->ExecuteNode();
+		return selectorObjects[2];
+	}
+
+	// Obstacle avoidance follows second
 	if (controller != nullptr) 
 	{
 		AActor* car = controller->GetPawn();
@@ -24,6 +34,7 @@ ACustomBehaviorTreeNode* ADrivingStyleSelector::SelectNode()
 		}
 	}
 
+	// If all else fails, then go to just following the racing line
 	selectorObjects[0]->ExecuteNode();
 	return selectorObjects[0];
 }
