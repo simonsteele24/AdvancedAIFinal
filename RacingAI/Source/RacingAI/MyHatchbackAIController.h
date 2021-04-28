@@ -19,4 +19,5 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite) float AutoThrottle;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite) FVector CheckpointLocation;
 	UPROPERTY(EditDefaultsOnly) class AReinforcementLearningManager* manager;
+	UPROPERTY(BlueprintReadWrite) int numOfCheckpoints = 0;
 };

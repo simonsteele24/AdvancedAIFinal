@@ -7,6 +7,30 @@
 #include "MyHatchbackAIController.h"
 #include "ReinforcementLearningManager.generated.h"
 
+UENUM(BlueprintType)
+enum Actions
+{
+	LEFT   UMETA(DisplayName = "LEFT"),
+	RIGHT   UMETA(DisplayName = "RIGHT")
+};
+
+UENUM(BlueprintType)
+enum Results
+{
+	PASS   UMETA(DisplayName = "Pass"),
+	NOPASS   UMETA(DisplayName = "No Pass"),
+	OFFTRACK UMETA(DisplayName = "Offtrack")
+};
+
+USTRUCT()
+struct FRewardsStats
+{
+	GENERATED_BODY()
+
+	float leftReward = 0.0f;
+	float rightReward = 0.0f;
+};
+
 UCLASS()
 class RACINGAI_API AReinforcementLearningManager : public AActor
 {
@@ -24,11 +48,11 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	// TMap<int, FActionsMap> map
-	// TArray<ActionsEnum> actionsTaken
-	// TArray<ResultsEnum> resultsGiven
+	UPROPERTY() TArray<FRewardsStats> map;
+	UPROPERTY() TArray<TEnumAsByte<Actions>> actionsTaken;
+	UPROPERTY() TArray<TEnumAsByte<Results>> resultsGiven;
 
-	AMyHatchbackAIController* controller;
+	UPROPERTY() AMyHatchbackAIController* controller;
 
 	UFUNCTION(BlueprintCallable) void InitializeManager(AMyHatchbackAIController * newController); // This function initializes all of the required components to get the RL manager to work
 	UFUNCTION(BlueprintCallable) void CheckupManager(int checkpointNum); // This function calculates the reward based on actions given

@@ -29,6 +29,12 @@ void AReinforcementLearningManager::Tick(float DeltaTime)
 void AReinforcementLearningManager::InitializeManager(AMyHatchbackAIController* newController)
 {
 	controller = newController;
+
+	// Initialize checkpoints rewards
+	for (int i = 0; i < controller->numOfCheckpoints; i++) 
+	{
+		map.Add(FRewardsStats());
+	}
 }
 
 // This function calculates the reward based on actions given
