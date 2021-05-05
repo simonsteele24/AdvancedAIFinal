@@ -27,4 +27,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(Editanywhere, BlueprintReadWrite) bool bIsRightBoundary;
+
+	class USplineComponent* getPath() { return boundary; }
 };

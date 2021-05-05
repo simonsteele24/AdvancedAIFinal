@@ -20,8 +20,6 @@ ABaseDecisionNode* ASteeringDecisionNode::ExecuteDecision(class AMyHatchbackAICo
 		dist.Normalize();
 		float dotProduct = FVector::DotProduct(controller->GetPawn()->GetActorRightVector(), dist);
 
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, FString::SanitizeFloat(dotProduct));
-
 		if (distance < 2000.0f) 
 		{
 			if (dotProduct > 0)
