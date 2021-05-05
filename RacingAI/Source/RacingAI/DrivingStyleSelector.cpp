@@ -34,6 +34,10 @@ ACustomBehaviorTreeNode* ADrivingStyleSelector::SelectNode()
 		}
 	}
 
+	// LOOK HERE COLTON!!!
+	// If you want it to switch to the slot to car track node use this:
+	// return selectorObjects[3];
+
 	// If all else fails, then go to just following the racing line
 	selectorObjects[0]->ExecuteNode();
 	return selectorObjects[0];
