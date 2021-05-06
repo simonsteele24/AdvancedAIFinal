@@ -3,6 +3,7 @@
 
 #include "DrivingStyleSelector.h"
 #include "MyHatchbackAIController.h"
+#include "MyHatchback.h"
 #include "ReinforcementLearningManager.h"
 #include "TrackBoundaryActor.h"
 
@@ -24,8 +25,8 @@ ACustomBehaviorTreeNode* ADrivingStyleSelector::SelectNode()
 
 		if (dotProd < 0) 
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Here!"));
 			selectorObjects[1]->ExecuteNode();
+			Cast<AMyHatchback>(car)->decisionIndex = 1;
 			return selectorObjects[1];
 		}
 	}
@@ -46,6 +47,8 @@ ACustomBehaviorTreeNode* ADrivingStyleSelector::SelectNode()
 	if (lSet < 0.0f)
 	{
 		selectorObjects[3]->ExecuteNode();
+		AActor* car = controller->GetPawn();
+		Cast<AMyHatchback>(car)->decisionIndex = 3;
 		return selectorObjects[3];
 	}
 
@@ -53,6 +56,8 @@ ACustomBehaviorTreeNode* ADrivingStyleSelector::SelectNode()
 	if(rSet < 0.0f)
 	{
 		selectorObjects[3]->ExecuteNode();
+		AActor* car = controller->GetPawn();
+		Cast<AMyHatchback>(car)->decisionIndex = 3;
 		return selectorObjects[3];
 	}
 
@@ -70,5 +75,7 @@ ACustomBehaviorTreeNode* ADrivingStyleSelector::SelectNode()
 
 	// If all else fails, then go to just following the racing line
 	selectorObjects[0]->ExecuteNode();
+	AActor* car = controller->GetPawn();
+	Cast<AMyHatchback>(car)->decisionIndex = 0;
 	return selectorObjects[0];
 }

@@ -31,6 +31,9 @@ public:
 	UPROPERTY(EditAnywhere)
 	int numGears = 6;
 
+	UPROPERTY(BlueprintReadWrite)
+	int decisionIndex = 0;
+
 	UPROPERTY(EditAnywhere)
 	float gravityStrength = -2000000.0f;
 
