@@ -20,11 +20,24 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite) FVector CheckpointLocation;
 	UPROPERTY(EditDefaultsOnly) class AReinforcementLearningManager* manager;
 	UPROPERTY(BlueprintReadWrite) int numOfCheckpoints = 0;
-	UPROPERTY(BlueprintReadWrite) FVector racingLinePoint;
-	UPROPERTY(BlueprintReadWrite) FVector leftLinePoint;
-	UPROPERTY(BlueprintReadWrite) FVector rightLinePoint;
 	UPROPERTY(BlueprintReadWrite) class ATrackBoundaryActor* rightwardTrackActor;
 	UPROPERTY(BlueprintReadWrite) class ATrackBoundaryActor* leftwardTrackActor;
+
+	//minimum distance for the slot steering to take over
+									   /*
+									   *  Minimum Activation distance is "=="
+									   *
+									   *		RL		  Track Boundary
+											   /	   	  /
+											  /		     /
+											 |		    |
+											|		   |
+											 |		 A==|    CarPoint
+											  |	         |
+											   \		  \
+												\		   \
+									   */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite) float minActivationDistance = 4.0f;
 
 	UFUNCTION(BlueprintCallable)
 	bool checkOnTrackLeft(FVector CarPos);

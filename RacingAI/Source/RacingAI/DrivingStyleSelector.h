@@ -15,5 +15,6 @@ class RACINGAI_API ADrivingStyleSelector : public ACustomSelectorNode
 	GENERATED_BODY()
 	
 public:
+
 	ACustomBehaviorTreeNode* SelectNode(); // This function selects a node based on selection
 };

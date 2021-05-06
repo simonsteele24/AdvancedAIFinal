@@ -6,6 +6,19 @@
 #include "CustomBehaviorTreeNode.h"
 #include "SlotCarToTrackNode.generated.h"
 
+
+/*
+									*		RL		  Track Boundary
+											/	   	  /
+										   /		 /
+										  |		    |
+										 |		   |
+										  |		    |
+										   |	     |
+											\		  \
+											 \		   \
+									*/
+
 /**
  * 
  */
