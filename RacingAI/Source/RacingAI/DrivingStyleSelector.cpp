@@ -11,13 +11,6 @@ ACustomBehaviorTreeNode* ADrivingStyleSelector::SelectNode()
 {
 	AMyHatchbackAIController* controller = Cast<AMyHatchbackAIController>(treeOwner);
 
-	// RL actions override everything
-	if (controller->manager->GetAction() != 0.0f) 
-	{
-		selectorObjects[2]->ExecuteNode();
-		return selectorObjects[2];
-	}
-
 	// Obstacle avoidance follows second
 	if (controller != nullptr) 
 	{
@@ -31,6 +24,7 @@ ACustomBehaviorTreeNode* ADrivingStyleSelector::SelectNode()
 
 		if (dotProd < 0) 
 		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Here!"));
 			selectorObjects[1]->ExecuteNode();
 			return selectorObjects[1];
 		}

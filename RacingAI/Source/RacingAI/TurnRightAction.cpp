@@ -7,5 +7,5 @@
 void ATurnRightAction::PerformAction(AMyHatchbackAIController* newController) 
 {
 	controller = newController;
-	controller->Steering += controller->GetPawn()->GetActorRightVector() * 300.0f;
+	controller->Steering += controller->GetPawn()->GetActorRightVector() * 200.0f;
 }

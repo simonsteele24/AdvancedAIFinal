@@ -55,7 +55,7 @@ class AMyHatchback* ASteeringDecisionNode::GetClosestCar()
 		dist.Normalize();
 		float dotProduct = FVector::DotProduct(controller->GetPawn()->GetActorForwardVector(), dist);
 
-		if ((dotProduct > 0 || distance <= 2000.0f) && controller->GetPawn() != outActor[i]) 
+		if ((dotProduct > 0 || distance <= 500.0f) && controller->GetPawn() != outActor[i]) 
 		{
 			if (distance < closestDistance) 
 			{
